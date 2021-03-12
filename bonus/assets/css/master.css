@@ -4,36 +4,34 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 .navbar {
-  margin-bottom: 0;
-  position: fixed;
-  z-index: 5;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
 }
 
-.navbar-default {
-  background-color: #fff;
+.content-nav-sx, .content-nav-dx {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: #5B6987;
+.list-nav-sx ul, .list-nav-dx ul {
+  display: flex;
 }
 
-.navbar-brand img {
-  height: 100%;
-  width: auto;
+.list-nav-sx ul li, .list-nav-dx ul li{
+  padding: 0 5px;
 }
 
-.my-btn-default {
-  color: #006aff;
-  background-color: #fff;
-  border-color: #006aff;
-}
 
-.my-btn-default:hover {
-  color: #fff;
-  background-color: #006aff;
-  border-color: #006aff;
+.content-nav-sx img {
+  width: 20px;
+
 }
 
 /*Utili per il main.js*/
