@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 ul {
   list-style: none;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 25px 50px;
 }
 
 .content-nav-sx, .content-nav-dx {
@@ -20,17 +24,30 @@ ul {
   align-items: center;
 }
 
+.list-nav-sx {
+  padding-left: 20px;
+}
+
 .list-menu {
   display: flex;
 }
 
 .list-nav-sx ul li, .list-nav-dx ul li{
-  padding: 0 5px;
+  padding: 0 15px;
+  font-weight: 400;
+  color: rgb(131, 131, 131);
+}
+
+.list-nav-sx ul li:hover, .list-nav-dx ul li:hover{
+  color: #191c1f;
 }
 
 
 .content-nav-sx img {
   width: 20px;
+}
+
+.drop-menu  {
 
 }
 
@@ -39,10 +56,14 @@ ul {
   display: none;
   position: absolute;
   top: 50px;
+  background-color: #fff;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.drop-down li {
-
+.drop-menu li {
+  padding: 5px;
 }
 
 /*Utili per il main.js*/
