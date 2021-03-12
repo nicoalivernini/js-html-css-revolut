@@ -5,100 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Revolut</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/master.css">
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo Revolut"></a>
+    <div class="container">
+      <div class="row">
+        <div class="navbar">
+          <div class="nav-sx">
+            <div class="content-nav-sx">
+              <img src="assets/img/logo.png" alt="Logo Revolut">
+              <div class="list-nav-sx">
+                <ul class="list-menu">
+                  <li>Personal</li>
+                  <li>Business</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="nav-dx">
+            <div class="content-nav-dx">
+              <div class="list-nav-dx">
+                <ul class="list-menu">
+                  <li>Features
+                    <ul class="drop-menu">
+                      <li>Budget & Analytics</li>
+                      <li>Cards</li>
+                      <li>Junior Account</li>
+                      <li>Pockets</li>
+                    </ul>
+                  </li>
+                  <li>Plans
+                    <ul class="drop-menu">
+                      <li>Standard</li>
+                      <li>Plus</li>
+                      <li>Premium</li>
+                      <li>Metal</li>
+                      <li>Compare plans</li>
+                    </ul>
+                  </li>
+                  <li>About us
+                    <ul class="drop-menu">
+                      <li>About us</li>
+                      <li>Blog</li>
+                      <li>Leadership</li>
+                      <li>Newsroom</li>
+                      <li>Affiliates</li>
+                      <li>Influencers</li>
+                      <li>Careers</li>
+                      <li>Culture</li>
+                      <li>Diversity & Inclusion</li>
+                      <li>Contact</li>
+                    </ul>
+                  </li>
+                  <li>Help
+                    <ul class="drop-menu">
+                      <li>Help centre</li>
+                      <li>Community</li>
+                      <li>Security</li>
+                      <li>System Status</li>
+                      <li>Developer APIs</li>
+                    </ul>
+                  </li>
+                  <button class="my-btn-default" type="button" name="button">Sign in</button>
+                  <button class="my-btn-default-negative" type="button" name="button">Get the App</button>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav my-navbar-left">
-            <!-- Personal -->
-            <li>
-              <a href="#">Personal</a>
-            </li>
-            <!-- Business -->
-            <li><a href="#">Business</a></li>
-          </ul>
-
-
-          <!-- Navbar right -->
-          <ul class="nav navbar-nav navbar-right">
-            <!-- Dropdown Support -->
-            <!-- Features -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle my-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Support 1</a></li>
-                <li><a href="#">Support 2</a></li>
-              </ul>
-            </li>
-            <!-- Plans -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle my-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plans</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Standard</a></li>
-                <li><a href="#">Plus</a></li>
-                <li><a href="#">Premium</a></li>
-                <li><a href="#">Metal</a></li>
-                <li><a href="#">Compare plans</a></li>
-              </ul>
-            </li>
-            <!-- About us -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle my-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Leadership</a></li>
-                <li><a href="#">Newsroom</a></li>
-                <li><a href="#">Affiliates</a></li>
-                <li><a href="#">Influencers</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Diversity & Inclusion</a></li>
-              </ul>
-            </li>
-            <!-- Help -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle my-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Help centre</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a href="#">System Status</a></li>
-                <li><a href="#">Developer APIs</a></li>
-              </ul>
-            </li>
-            <!-- Button Sign Up -->
-            <li><button type="button" class="btn btn-default my-btn-default">Sign In</button></li>
-            <li><button type="button" class="btn btn-default my-btn-default-negative">Get the App</button></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+      </div>
+    </div>
   </header>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 <script src="./assets/js/main.js" charset="utf-8"></script>
 </body>
 </html>
