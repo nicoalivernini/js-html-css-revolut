@@ -3,43 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/*
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px 0;
-}
-
-.content-nav-sx, .content-nav-dx{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.content-nav-sx img{
-  width: 20px;
-}
-
-.content-nav-sx ul, .content-nav-dx ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-li {
-  padding: 0 5px;
-}
-
-
-.content-nav-dx .drop-nav-dx{
-  display: none
-}
-
-.content-nav-dx .drop-nav-dx.active{
-  display: block
-}
-*/
-
 
 .navbar {
   margin-bottom: 0;
@@ -61,15 +24,6 @@ li {
   width: auto;
 }
 
-.my-dropdown:after {
-  content: "\f078";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  color: #5B6987;
-  padding-left: 5px;
-  vertical-align: middle;
-}
-
 .my-btn-default {
   color: #006aff;
   background-color: #fff;
@@ -80,4 +34,14 @@ li {
   color: #fff;
   background-color: #006aff;
   border-color: #006aff;
+}
+
+/*Utili per il main.js*/
+
+.dropdown-menu.active {
+  display: block
+}
+
+.dropdown-menu{
+  display: none
 }
