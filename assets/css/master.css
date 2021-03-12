@@ -3,3 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+/* parte sinistra navbar */
+.content-nav-sx, .content-nav-dx{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-nav-sx img{
+  width: 20px;
+}
+
+.content-nav-sx ul, .content-nav-dx ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  padding: 0 5px;
+}
