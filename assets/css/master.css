@@ -119,13 +119,13 @@ ul {
 }
 
 .drop-menu.active li {
-  padding: 15px;
+  padding: 15px 25px;
 }
 
 /*Utili per il main.js*/
 
 .drop-menu.active {
-  display: block
+  display: block;
 }
 
 .drop-menu{

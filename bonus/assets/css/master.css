@@ -21,7 +21,8 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #5B6987;
+  color: rgb(131, 131, 131);
+  font-weight: 400;
 }
 
 .navbar-brand img {
@@ -39,7 +40,6 @@ body {
   margin-top: 5px;
   margin-left: 15px;
 }
-
 
 .my-btn-default:hover {
   color:rgba(230, 230, 230, 1) ;
@@ -62,6 +62,47 @@ body {
   border-color: rgba(230, 230, 230, 0.6);
 }
 
+.multi-menu-features .multi-menu .title-multi-menu {
+  color: rgb(206, 213, 219);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.title-multi-menu i {
+  padding: 0 10px;
+}
+
+.multi-menu {
+  display: inline-block;
+  float: left;
+}
+
+.left {
+  left: 20%;
+}
+
+.drop-menu{
+  display: none;
+  position: absolute;
+  top: 80px;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 4%) 0px 0px 4px 0px,
+  rgb(0 0 0 / 8%) 0px 8px 16px 0px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.drop-menu.active li {
+  padding: 15px;
+}
+
+
+.multi-menu li {
+  list-style: none;
+  padding: 15px;
+  color: rgb(131, 131, 131);
+}
+
 /* DROPDOWN MENU */
 
 .dropdown-menu {
@@ -71,20 +112,27 @@ body {
     padding: 5px;
     border-radius: 10px;
     border-color: #fff;
+
+}
+
+.navbar-nav > li >.dropdown-multi-menu {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75vh;
 }
 
 .dropdown-menu > li > a {
   padding: 15px;
-  color: #5B6987;
+  color: rgb(131, 131, 131);
 }
 
 
 /*Utili per il main.js*/
 
 .dropdown-menu.active {
-  display: block
+  display: block;
 }
 
 .dropdown-menu{
-  display: none
+  display: none;
 }
