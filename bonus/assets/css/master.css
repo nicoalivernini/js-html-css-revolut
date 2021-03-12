@@ -51,19 +51,25 @@ ul {
 
 }
 
+.drop-multi{
+  width: 50%;
+  background-color: red;
+}
+
 /*DROP MENU*/
 .drop-menu{
   display: none;
   position: absolute;
-  top: 50px;
+  top: 60px;
   background-color: #fff;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: rgb(0 0 0 / 4%) 0px 0px 4px 0px,
+  rgb(0 0 0 / 8%) 0px 8px 16px 0px;
   padding: 5px;
   border-radius: 10px;
 }
 
-.drop-menu li {
-  padding: 5px;
+.drop-menu.active li {
+  padding: 15px;
 }
 
 /*Utili per il main.js*/
@@ -73,5 +79,6 @@ ul {
 }
 
 .drop-menu{
-  display: none
+  /* METTERE NONE */
+  display: none;
 }

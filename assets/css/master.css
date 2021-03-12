@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
   margin-bottom: 0;
   position: fixed;
@@ -13,6 +17,7 @@
 
 .navbar-default {
   background-color: #fff;
+  border-color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -25,16 +30,54 @@
 }
 
 .my-btn-default {
-  color: #006aff;
-  background-color: #fff;
-  border-color: #006aff;
+  color: rgb(25, 28, 31);
+  background-color: rgba(230, 230, 230, 0.6);
+  border-color: rgba(230, 230, 230, 0.6);
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px 25px;
+  margin-top: 5px;
+  margin-left: 15px;
 }
 
+
 .my-btn-default:hover {
-  color: #fff;
-  background-color: #006aff;
-  border-color: #006aff;
+  color:rgba(230, 230, 230, 1) ;
+  background-color:rgb(25, 28, 31) ;
+  border-color: rgb(25, 28, 31);
 }
+
+.my-btn-default-negative {
+  color:rgba(230, 230, 230, 1) ;
+  background-color:rgb(25, 28, 31) ;
+  border-color: rgb(25, 28, 31);
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px 25px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.my-btn-default-negative:hover {
+  border-color: rgba(230, 230, 230, 0.6);
+}
+
+/* DROPDOWN MENU */
+
+.dropdown-menu {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 4%) 0px 0px 4px 0px,
+    rgb(0 0 0 / 8%) 0px 8px 16px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.dropdown-menu > li > a {
+  padding: 15px;
+  color: #5B6987;
+}
+
 
 /*Utili per il main.js*/
 
