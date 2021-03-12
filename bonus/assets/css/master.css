@@ -20,7 +20,7 @@ ul {
   align-items: center;
 }
 
-.list-nav-sx ul, .list-nav-dx ul {
+.list-menu {
   display: flex;
 }
 
@@ -34,12 +34,23 @@ ul {
 
 }
 
+/*DROP MENU*/
+.drop-menu{
+  display: none;
+  position: absolute;
+  top: 50px;
+}
+
+.drop-down li {
+
+}
+
 /*Utili per il main.js*/
 
-.dropdown-menu.active {
+.drop-menu.active {
   display: block
 }
 
-.dropdown-menu{
+.drop-menu{
   display: none
 }
