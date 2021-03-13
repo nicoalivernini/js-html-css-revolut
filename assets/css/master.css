@@ -45,6 +45,7 @@ ul {
 
 .list-nav-sx ul li:hover, .list-nav-dx ul li:hover{
   color: #191c1f;
+  cursor: pointer;
 }
 
 
@@ -66,6 +67,7 @@ ul {
   color: rgba(230, 230, 230, 1);
   background-color: rgb(25, 28, 31);
   border-color: rgb(25, 28, 31);
+  cursor: pointer;
 }
 
 .my-btn-default-negative {
@@ -84,6 +86,7 @@ ul {
   background-color: rgba(230, 230, 230, 0.6);
   border-color: rgba(230, 230, 230, 0.6);
   border: 0;
+  cursor: pointer;
 }
 
 .multi-menu-features .multi-menu .title-multi-menu {
