@@ -59,6 +59,7 @@ ul {
   font-weight: 500;
   padding: 10px 25px;
   margin-left: 15px;
+  border: 0;
 }
 
 .my-btn-default:hover {
@@ -75,12 +76,14 @@ ul {
   font-weight: 500;
   padding: 10px 25px;
   margin-left: 15px;
+  border: 0;
 }
 
 .my-btn-default-negative:hover {
   color: rgb(25, 28, 31);
   background-color: rgba(230, 230, 230, 0.6);
   border-color: rgba(230, 230, 230, 0.6);
+  border: 0;
 }
 
 .multi-menu-features .multi-menu .title-multi-menu {
