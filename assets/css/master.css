@@ -16,7 +16,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 50px;
+  padding: 30px 100px;
 }
 
 .content-nav-sx, .content-nav-dx {
@@ -109,14 +109,14 @@ ul {
 
 /*DROP MENU*/
 
-.left {
-  left: 20%;
+.right {
+  right: 20%;
 }
 
 .drop-menu{
   display: none;
   position: absolute;
-  top: 80px;
+  top: 70px;
   background-color: #fff;
   box-shadow: rgb(0 0 0 / 4%) 0px 0px 4px 0px,
   rgb(0 0 0 / 8%) 0px 8px 16px 0px;
